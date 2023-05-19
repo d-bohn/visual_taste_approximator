@@ -62,7 +62,8 @@ kNN_params['verbose']     = 1
 # Logistic Regression params
 LogReg_params = {}
 LogReg_params['C'] = 0.75
-LogReg_params['class_weight'] = [0.5, 0.5]
+# LogReg_params['class_weight'] = [0.5, 0.5]
+# LogReg_params['class_weight'] = 'balanced'
 LogReg_params['penalty'] = 'l2'
 LogReg_params['l1_ratio'] = None
 
